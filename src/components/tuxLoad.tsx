@@ -9,8 +9,8 @@ function Tux() {
         initial={{ opacity: 0, scale: 0.1 }}
         animate={{ opacity: [0, 1, 0.8, 1], scale: [0.3, 1, 0.8, 1] }} 
         transition={{
-          duration: 2,   
-          repeat: 3,     
+          duration:4 ,   
+          repeat:0,     
           ease: "easeInOut"
         }}
         className="w-15"

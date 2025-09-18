@@ -6,7 +6,7 @@ function App() {
   const loaded = useLoading(4000); 
 
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       {!loaded ? <Tux /> :<Landing />}
     </div>
   );
